@@ -1,5 +1,5 @@
 window.nav = {
-    brand: `sy7vain`,
+    brand: `sy7v`,
     burger: [
         {
             text: page.home.title,
@@ -19,6 +19,10 @@ window.nav = {
             {
                 text: `Hosted on GitHub Pages`,
                 href: `https://pages.github.com`
+            },
+            {
+                text: `Open Spotify`,
+                href: `https://open.spotify.com`,
             }
         ],
         iconLinks: [
@@ -28,9 +32,9 @@ window.nav = {
                 src: `images/iconmonstr-github.png`
             },
             {
-                text: `Spotify`,
-                href: `https://open.spotify.com`,
-                src: `images/iconmonstr-spotify.png`
+                text: `LinkedIn`,
+                href: `https://www.linkedin.com/in/sy7v`,
+                src: `images/iconmonstr-linkedin.png`
             }
         ]
     }

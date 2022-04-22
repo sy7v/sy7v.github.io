@@ -36,7 +36,11 @@ window.page = {
                         href: `https://platform.commandersact.com`
                     },
                     {
-                        text: `Extension`,
+                        text: `New Platform`,
+                        href: `https://app.commandersact.com`
+                    },
+                    {
+                        text: `Chrome Extension`,
                         href: `https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr`
                     },
                     {
@@ -57,10 +61,6 @@ window.page = {
                 header: `Internal`,
                 links: [
                     {
-                        text: `Lucca`,
-                        href: `https://fjordtechnologies.ilucca.net/home`
-                    },
-                    {
                         text: `Zoho`,
                         href: `https://projects.zoho.eu`
                     },
@@ -69,16 +69,12 @@ window.page = {
                         href: `https://tagcoteam.slack.com`
                     },
                     {
-                        text: `Drive`,
-                        href: `https://drive.google.com/drive/my-drive`
-                    },
-                    {
                         text: `Office`,
                         href: `https://login.microsoftonline.com`
                     },
                     {
-                        text: `Dropbox`,
-                        href: `https://www.dropbox.com/home`
+                        text: `Lucca`,
+                        href: `https://fjordtechnologies.ilucca.net/home`
                     }
                 ]
             },
@@ -379,12 +375,8 @@ window.page = {
                         href: `https://analytics.google.com/analytics/academy/`
                     },
                     {
-                        text: `GTM Help`,
-                        href: `https://support.google.com/tagmanager/?hl=en#topic=3441530`
-                    },
-                    {
-                        text: `GA Help`,
-                        href: `https://support.google.com/analytics/?hl=en#topic=9143232`
+                        text: `Google Drive`,
+                        href: `https://drive.google.com/drive/my-drive`
                     },
                     {
                         text: `GTM`,
