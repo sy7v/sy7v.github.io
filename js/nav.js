@@ -28,7 +28,7 @@ window.nav = {
         iconLinks: [
             {
                 text: `Github`,
-                href: `https://github.com/sy7vain/sy7vain.github.io`,
+                href: `https://github.com/sy7v/sy7v.github.io`,
                 src: `images/iconmonstr-github.png`
             },
             {
