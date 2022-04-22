@@ -1,6 +1,11 @@
 
 
-Update content
+
+Update page.js to facilitate page customization
+
+
+
+Redo the About page
 
 
 
@@ -12,14 +17,10 @@ Add flash message when user consent is updated
 
 
 
-Allow dark theme
-
-
-
-Clean useless CSS
-
-
-
 Add data solutions
 
-Add a LinkedIn icon in Footer
+
+
+Allow dark theme
+
+Clean useless CSS
