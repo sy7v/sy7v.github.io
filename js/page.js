@@ -90,6 +90,10 @@ window.page = {
                         href: `https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer`
                     },
                     {
+                        text: `Synonymo`,
+                        href: `http://www.synonymo.fr`
+                    },
+                    {
                         text: `Wiktionary`,
                         href: `https://www.wiktionary.org`
                     },
@@ -100,10 +104,6 @@ window.page = {
                     {
                         text: `Marketing`,
                         href: `https://www.definitions-marketing.com`
-                    },
-                    {
-                        text: `Tech`,
-                        href: `https://techterms.com`
                     }
                 ]
             },
