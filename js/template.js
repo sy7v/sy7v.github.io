@@ -4,7 +4,7 @@ window.template = {
             link: `
                 <a href="__href__"
                     class="btn-w btn-p"
-                    onclick="dispatch.event('Click Header', 'Burger, '__text__')"
+                    onclick="dispatch.event('Click Header', 'Burger', '__text__')"
                 >__text__</a>
             `
         },
@@ -49,7 +49,7 @@ window.template = {
                 `,
                 sub: `
                     <a class="link" target="_blank" href="__href__"
-                        onclick="dispatch.event('Click Page', 'Card link', __label__)"
+                        onclick="dispatch.event('Click Page', 'Card link', '__label__')"
                     >__text__</a>
                 `
             }

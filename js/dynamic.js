@@ -33,9 +33,9 @@ window.dynamic = {
                     links += template.content.card.element.sub
                         .replace('__text__', subEntry.text)
                         .replace('__href__', subEntry.href)
-                        .replace('__label__', entry.text + ' - ' + subEntry.text)
+                        .replace('__label__', entry.header + ' - ' + subEntry.text)
                 });
-                cards += card.replace('__links__', links)
+                cards += card.replace('__links__', links);
             });
             return template.content.card.container
                 .replace('__title__', page.title)

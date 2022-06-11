@@ -75,7 +75,7 @@ window.pages = [
                 ]
             },
             {
-                header: `V7`,
+                header: `Documentation V7`,
                 links: [
                     {
                         text: `Platform`,

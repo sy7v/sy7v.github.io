@@ -7,7 +7,8 @@ window.app = {
             true
         )
     },
-    route: (i = 0, notFound = true) => {
+    route: () => {
+        let i = 0, notFound = true;
         while (i < pages.length) {
             if (js.string.slugify(pages[i].title) === location.hash) {
                 notFound = false;
@@ -19,8 +20,8 @@ window.app = {
         }
         if (notFound) {
             // TODO: flash message
+            console.log('wrong')
         }
-
     },
     run: () => {
         app.route();
