@@ -1,14 +1,15 @@
 window.pages = [
 
 
+
     // {
-    //     title: `Any`,
+    //     title: `New`,
     //     cards: [
     //         {
     //             header: `One`,
     //             links: [
     //                 {
-    //                     text: `Link`,
+    //                     text: `Display`,
     //                     href: `https://example.com`
     //                 }
     //             ]
@@ -17,140 +18,36 @@ window.pages = [
     // },
 
 
+
     {
-        title: `CommandersAct`,
+        title: `Web Development`,
         cards: [
             {
-                header: `External`,
+                header: `Chrome`,
                 links: [
                     {
-                        text: `Platform X`,
-                        href: `https://app.commandersact.com`
+                        text: `DevTools`,
+                        href: `https://developer.chrome.com/docs/devtools/overview/`
                     },
                     {
-                        text: `Platform V7`,
-                        href: `https://platform.commandersact.com`
+                        text: `Debugging`,
+                        href: `https://developers.google.com/web/tools/chrome-devtools/javascript/reference`
                     },
                     {
-                        text: `Chrome Extension`,
-                        href: `https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr`
+                        text: `Local Overrides`,
+                        href: `https://developers.google.com/web/updates/2018/01/devtools#overrides`
                     },
                     {
-                        text: `Community`,
-                        href: `https://community.commandersact.com/en`
+                        text: `Web Fundamentals`,
+                        href: `https://developers.google.com/web/fundamentals`
                     },
                     {
-                        text: `Corporate`,
-                        href: `https://www.commandersact.com`
+                        text: `Resource Override`,
+                        href: `https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii`
                     },
                     {
-                        text: `GitHub`,
-                        href: `https://github.com/CommandersAct`
-                    }
-                ]
-            },
-            {
-                header: `Internal`,
-                links: [
-                    {
-                        text: `Zoho`,
-                        href: `https://projects.zoho.eu`
-                    },
-                    {
-                        text: `Slack`,
-                        href: `https://tagcoteam.slack.com`
-                    },
-                    {
-                        text: `Office`,
-                        href: `https://login.microsoftonline.com`
-                    },
-                    {
-                        text: `Lucca`,
-                        href: `https://fjordtechnologies.ilucca.net/home`
-                    },
-                    {
-                        text: `Atlassian`,
-                        href: `https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global`
-                    }
-                ]
-            },
-            {
-                header: `Documentation V7`,
-                links: [
-                    {
-                        text: `Platform`,
-                        href: `https://community.commandersact.com/platform`
-                    },
-                    {
-                        text: `Tag`,
-                        href: `https://community.commandersact.com/tagcommander`
-                    },
-                    {
-                        text: `Trust`,
-                        href: `https://community.commandersact.com/trustcommander`
-                    },
-                    {
-                        text: `Mix`,
-                        href: `https://community.commandersact.com/mixcommander`
-                    },
-                    {
-                        text: `Data`,
-                        href: `https://community.commandersact.com/datacommander`
-                    },
-                    {
-                        text: `Fuse`,
-                        href: `#fuse`
-                    }
-                ]
-            },
-        ]
-    },
-    {
-        title: `Home`,
-        cards: [
-            {
-                header: `Language`,
-                links: [
-                    {
-                        text: `Translate`,
-                        href: `https://translate.google.com/?ui=tob&sl=en&tl=fr&op=translate`
-                    },
-                    {
-                        text: `Conjugueur`,
-                        href: `https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer`
-                    },
-                    {
-                        text: `Synonymo`,
-                        href: `http://www.synonymo.fr`
-                    },
-                    {
-                        text: `Wiktionary`,
-                        href: `https://www.wiktionary.org`
-                    },
-                    {
-                        text: `Thesaurus`,
-                        href: `https://www.thesaurus.com`
-                    },
-                    {
-                        text: `Marketing`,
-                        href: `https://www.definitions-marketing.com`
-                    }
-                ]
-            },
-            {
-                header: `International`,
-                links: [
-                    {
-                        text: `Calling codes`,
-                        href: `https://en.wikipedia.org/wiki/List_of_country_calling_codes`
-                    },
-                    {
-                        text: `Country codes`,
-                        href: `https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes`
-                    },
-                    {
-                        text: `Google Maps`,
-                        href: `https://www.google.com/maps`
+                        text: `Wappalyzer`,
+                        href: `https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related`
                     }
                 ]
             },
@@ -341,10 +238,67 @@ window.pages = [
                         href: `https://developers.google.com/speed/pagespeed/insights`
                     }
                 ]
+            }
+        ]
+    },
+
+
+
+    {
+        title: `Commanders Act`,
+        cards: [
+            {
+                header: `Customer`,
+                links: [
+                    {
+                        text: `Platform X`,
+                        href: `https://app.commandersact.com`
+                    },
+                    {
+                        text: `Platform V7`,
+                        href: `https://platform.commandersact.com`
+                    },
+                    {
+                        text: `Chrome Extension`,
+                        href: `https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr`
+                    },
+                    {
+                        text: `Community`,
+                        href: `https://community.commandersact.com/en`
+                    },
+                    {
+                        text: `Corporate`,
+                        href: `https://www.commandersact.com`
+                    },
+                    {
+                        text: `GitHub`,
+                        href: `https://github.com/CommandersAct`
+                    }
+                ]
             },
             {
-                header: `Test`,
+                header: `Internal`,
                 links: [
+                    {
+                        text: `Zoho`,
+                        href: `https://projects.zoho.eu`
+                    },
+                    {
+                        text: `Slack`,
+                        href: `https://tagcoteam.slack.com`
+                    },
+                    {
+                        text: `Office`,
+                        href: `https://login.microsoftonline.com`
+                    },
+                    {
+                        text: `Lucca`,
+                        href: `https://fjordtechnologies.ilucca.net/home`
+                    },
+                    {
+                        text: `Atlassian`,
+                        href: `https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global`
+                    },
                     {
                         text: `BrowserStack`,
                         href: `https://www.browserstack.com/users/sign_in`
@@ -352,10 +306,55 @@ window.pages = [
                 ]
             },
             {
+                header: `Documentation V7`,
+                links: [
+                    {
+                        text: `Platform`,
+                        href: `https://community.commandersact.com/platform`
+                    },
+                    {
+                        text: `Tag`,
+                        href: `https://community.commandersact.com/tagcommander`
+                    },
+                    {
+                        text: `Trust`,
+                        href: `https://community.commandersact.com/trustcommander`
+                    },
+                    {
+                        text: `Mix`,
+                        href: `https://community.commandersact.com/mixcommander`
+                    },
+                    {
+                        text: `Data`,
+                        href: `https://community.commandersact.com/datacommander`
+                    },
+                    {
+                        text: `Fuse`,
+                        href: `#fuse`
+                    }
+                ]
+            },
+            {
+                header: `Documentation X`,
+                links: [
+                    {
+                        text: `Customer Data Platform`,
+                        href: `https://community.commandersact.com/platform-x`
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    {
+        title: `Data collection`,
+        cards: [
+            {
                 header: `CNIL`,
                 links: [
                     {
-                        text: `cnil.fr`,
+                        text: `Website`,
                         href: `https://www.cnil.fr`
                     },
                     {
@@ -365,36 +364,7 @@ window.pages = [
                 ]
             },
             {
-                header: `Chrome`,
-                links: [
-                    {
-                        text: `DevTools`,
-                        href: `https://developer.chrome.com/docs/devtools/overview/`
-                    },
-                    {
-                        text: `Debugging`,
-                        href: `https://developers.google.com/web/tools/chrome-devtools/javascript/reference`
-                    },
-                    {
-                        text: `Local Overrides`,
-                        href: `https://developers.google.com/web/updates/2018/01/devtools#overrides`
-                    },
-                    {
-                        text: `Web Fundamentals`,
-                        href: `https://developers.google.com/web/fundamentals`
-                    },
-                    {
-                        text: `Resource Override`,
-                        href: `https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii`
-                    },
-                    {
-                        text: `Wappalyzer`,
-                        href: `https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related`
-                    }
-                ]
-            },
-            {
-                header: `Analytics`,
+                header: `Google`,
                 links: [
                     {
                         text: `Measurement Protocol`,
@@ -405,19 +375,72 @@ window.pages = [
                         href: `https://analytics.google.com/analytics/academy/`
                     },
                     {
-                        text: `Google Drive`,
-                        href: `https://drive.google.com/drive/my-drive`
-                    },
-                    {
-                        text: `GTM`,
+                        text: `Tag Manager`,
                         href: `https://tagmanager.google.com/#/home`
                     },
                     {
-                        text: `GA`,
+                        text: `Analytics`,
                         href: `https://analytics.google.com`
                     }
                 ]
             }
         ]
+    },
+
+
+
+    {
+        title: `Utils`,
+        cards: [
+            {
+                header: `Language`,
+                links: [
+                    {
+                        text: `Translate`,
+                        href: `https://translate.google.com/?ui=tob&sl=en&tl=fr&op=translate`
+                    },
+                    {
+                        text: `Conjugueur`,
+                        href: `https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer`
+                    },
+                    {
+                        text: `Synonymo`,
+                        href: `http://www.synonymo.fr`
+                    },
+                    {
+                        text: `Wiktionary`,
+                        href: `https://www.wiktionary.org`
+                    },
+                    {
+                        text: `Thesaurus`,
+                        href: `https://www.thesaurus.com`
+                    },
+                    {
+                        text: `Marketing`,
+                        href: `https://www.definitions-marketing.com`
+                    }
+                ]
+            },
+            {
+                header: `International`,
+                links: [
+                    {
+                        text: `Calling codes`,
+                        href: `https://en.wikipedia.org/wiki/List_of_country_calling_codes`
+                    },
+                    {
+                        text: `Country codes`,
+                        href: `https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes`
+                    },
+                    {
+                        text: `Google Maps`,
+                        href: `https://www.google.com/maps`
+                    }
+                ]
+            }
+        ]
     }
+
+
+
 ]
