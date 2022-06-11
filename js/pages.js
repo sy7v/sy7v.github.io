@@ -45,7 +45,7 @@ window.pages = [
                     },
                     {
                         text: `GitHub`,
-                        href: `https://github.com/TagCommander`
+                        href: `https://github.com/CommandersAct`
                     }
                 ]
             },
