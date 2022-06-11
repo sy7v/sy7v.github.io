@@ -2,7 +2,7 @@ window.boot = {
     script: {
         cacheBuster: true,
         steps: [
-            'js', 'page', 'nav', 'template', 'dynamic', 'ui', 'dispatch', 'app'
+            'js', 'pages', 'nav', 'template', 'dynamic', 'ui', 'dispatch', 'app'
         ],
         add: (url, cacheBuster) => {
             let node = document.createElement('script');

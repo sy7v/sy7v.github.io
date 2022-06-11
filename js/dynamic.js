@@ -1,7 +1,6 @@
 window.dynamic = {
     nav: {
-        setBurger: () => {
-            let links = '';
+        setBurger: (links = '') => {
             nav.burger.forEach((entry) => {
                 links += template.nav.burger.link
                     .replace(/__text__/g, entry.text)
@@ -9,10 +8,7 @@ window.dynamic = {
             });
             document.querySelector('#drop-i-c').insertAdjacentHTML('afterbegin', links)
         },
-        setFooter: () => {
-            let texts = ''
-              , icons = ''
-              ;
+        setFooter: (texts = '', icons = '') => {
             nav.footer.textLinks.forEach((entry) => {
                 texts += template.nav.footer.text
                     .replace(/__text__/g, entry.text)
@@ -29,8 +25,7 @@ window.dynamic = {
         }
     },
     content: {
-        getHome: () => {
-            let cards = '';
+        getHTML: (page, cards = '') => {
             page.home.cards.forEach((entry) => {
                 let card = template.content.card.element.main.replace('__header__', entry.header),
                 links = '';

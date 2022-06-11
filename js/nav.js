@@ -1,19 +1,13 @@
 window.nav = {
     brand: `sy7v`,
-    burger: [
-        {
-            text: page.home.title,
-            href: js.string.slugify(page.home.title)
-        },
-        {
-            text: page.documentation.title,
-            href: js.string.slugify(page.documentation.title)
-        },
-        {
-            text: page.about.title,
-            href: js.string.slugify(page.about.title)
-        }
-    ],
+    burger: (function(links = []) {
+        pages.forEach((page) => {
+            links.push({
+                text: page.title,
+                href: js.string.slugify(page.title)
+            })
+        }); return links
+    }()),
     footer: {
         textLinks: [
             {

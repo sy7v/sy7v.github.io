@@ -1,43 +1,35 @@
-window.page = {
+window.pages = [
 
 
-    // example: {
-    //     title: `_`,
-    //     zones: [
+    // {
+    //     title: `Any`,
+    //     cards: [
     //         {
-    //             header: `_`,
-    //             cards: [
-    //                 { header: `_`, links: [ { text: `_`, href: `_` } ] }
-    //             ],
-    //             bullets: {
-    //                 a: { text: `_`, href: `_` }
-    //             },
-    //             button: {
-    //                 basic: { text: `_`, href: `_` },
-    //                 warning: { text: `_`, href: `_` }
-    //             },
-    //             text: `_`,
-    //             link: `_`,
-    //             video: `_`
-    //         }
+    //             header: `One`,
+    //             links: [
+    //                 {
+    //                     text: `Link`,
+    //                     href: `https://example.com`
+    //                 }
+    //             ]
+    //         },
     //     ]
     // },
 
 
-
-    home: {
-        title: `Home`,
+    {
+        title: `CommandersAct`,
         cards: [
             {
                 header: `External`,
                 links: [
                     {
-                        text: `Platform`,
-                        href: `https://platform.commandersact.com`
+                        text: `Platform X`,
+                        href: `https://app.commandersact.com`
                     },
                     {
-                        text: `New Platform`,
-                        href: `https://app.commandersact.com`
+                        text: `Platform V7`,
+                        href: `https://platform.commandersact.com`
                     },
                     {
                         text: `Chrome Extension`,
@@ -75,9 +67,47 @@ window.page = {
                     {
                         text: `Lucca`,
                         href: `https://fjordtechnologies.ilucca.net/home`
+                    },
+                    {
+                        text: `Atlassian`,
+                        href: `https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global`
                     }
                 ]
             },
+            {
+                header: `V7`,
+                links: [
+                    {
+                        text: `Platform`,
+                        href: `https://community.commandersact.com/platform`
+                    },
+                    {
+                        text: `Tag`,
+                        href: `https://community.commandersact.com/tagcommander`
+                    },
+                    {
+                        text: `Trust`,
+                        href: `https://community.commandersact.com/trustcommander`
+                    },
+                    {
+                        text: `Mix`,
+                        href: `https://community.commandersact.com/mixcommander`
+                    },
+                    {
+                        text: `Data`,
+                        href: `https://community.commandersact.com/datacommander`
+                    },
+                    {
+                        text: `Fuse`,
+                        href: `#fuse`
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        title: `Home`,
+        cards: [
             {
                 header: `Language`,
                 links: [
@@ -389,76 +419,5 @@ window.page = {
                 ]
             }
         ]
-    },
-
-
-
-    documentation: {
-        title: `Documentation`,
-        bullets: {
-            a: {
-                text: `Platform`,
-                href: `https://community.commandersact.com/platform`
-            },
-            b: {
-                text: `Tag`,
-                href: `https://community.commandersact.com/tagcommander`
-            },
-            c: {
-                text: `Trust`,
-                href: `https://community.commandersact.com/trustcommander`
-            },
-            d: {
-                text: `Mix`,
-                href: `https://community.commandersact.com/mixcommander`
-            },
-            e: {
-                text: `Data`,
-                href: `https://community.commandersact.com/datacommander`
-            },
-            f: {
-                text: `Fuse`,
-                href: `#fuse`
-            }
-        },
-        cta: {
-            text: `Internal`,
-            href: `https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global`
-        }
-    },
-
-
-
-    about: {
-        title: `About`,
-        main: {
-            body: `Please note that this site is intended only to practice the implementation of the various Commanders Act products and is by no means an official showcase. The code on this site is also not related to Commanders Act technologies but to a personal web development project. The data collected is only used to verify the configuration.`
-        },
-        hosting: {
-            text: `Hosted on GitHub Pages`,
-            href: `https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages`
-        },
-        sub: {
-            header: `Commanders Act`,
-            video: `https://www.youtube.com/embed/6S9Es0UhzQg`,
-            cta: {
-                text: `More information`,
-                href: `https://www.commandersact.com`
-            }
-        }
-    },
-
-
-
-    notFound: {
-        title: `404 not found`,
-        header: `This page does not exist`,
-        link: {
-            text: `Follow the white rabbit.`,
-            href: `https://www.youtube.com/watch?v=Smwrw4sNCxE`
-        }
     }
-
-
-
-}
+]
