@@ -14,15 +14,21 @@ window.nav = {
                 text: `Hosted on GitHub Pages`,
                 href: `https://pages.github.com`
             },
+            // TODO: move elsewhere
             {
                 text: `Open Spotify`,
                 href: `https://open.spotify.com`,
-            }
+            },
+            // TODO: create method
+            // {
+            //     text: `About your data`,
+            //     onclick: ...
+            // }
         ],
         iconLinks: [
             {
                 text: `Github`,
-                href: `https://github.com/sy7v/sy7v.github.io`,
+                href: `https://github.com/sy7v`,
                 src: `images/iconmonstr-github.png`
             },
             {
