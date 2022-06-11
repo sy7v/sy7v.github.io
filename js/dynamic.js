@@ -26,7 +26,7 @@ window.dynamic = {
     },
     content: {
         getHTML: (page, cards = '') => {
-            page.home.cards.forEach((entry) => {
+            page.cards.forEach((entry) => {
                 let card = template.content.card.element.main.replace('__header__', entry.header),
                 links = '';
                 entry.links.forEach((subEntry) => {
@@ -37,7 +37,9 @@ window.dynamic = {
                 });
                 cards += card.replace('__links__', links)
             });
-            return template.content.card.container.replace('__cards__', cards)
+            return template.content.card.container
+                .replace('__title__', page.title)
+                .replace('__cards__', cards)
         }
     }
 }

@@ -32,7 +32,7 @@ window.template = {
         card: {
             container: `
                 <section class="sect-c">
-                    <h2>${page.home.title}</h2>
+                    <h2>__title__</h2>
                     <div class="cards">
                         __cards__
                     </div>
