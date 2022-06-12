@@ -1,14 +1,18 @@
 window.app = {
     start: () => {
         ui.setNav();
-        boot.script.waitLoad(0,
-            dispatch.getRecipient,
+        dispatch.recipient.set();
+        boot.script.waitLoad(
+            0,
+            dispatch.recipient.get,
             app.run,
             true
         )
     },
     route: () => {
-        let i = 0, notFound = true;
+        let i = 0
+          , notFound = true
+          ;
         while (i < pages.length) {
             if (js.string.slugify(pages[i].title) === location.hash) {
                 notFound = false;
@@ -18,7 +22,12 @@ window.app = {
                 ); break
             } i++
         }
-        if (notFound) {
+        if (location.hash === '') {
+            ui.setContent(
+                dynamic.content.getHTML(pages[0]),
+                pages[0].title
+            )
+        } else if (notFound) {
             // TODO: flash message
             console.log('wrong')
         }

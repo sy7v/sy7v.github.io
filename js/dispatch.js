@@ -1,19 +1,27 @@
 window.dispatch = {
-    recipient: false,
-    setRecipient: () => {
-        // TODO: Analytics
-    },
-    getRecipient: () => {
-        // TODO: Analytics
-    },
-    view: (title) => {
-        if (dispatch.recipient) {
-            // TODO: Analytics
+    recipient: {
+        set: () => {
+
+            // TODO: add analytics solutions
+
+        },
+        get: () => {
+
+            // TODO: add analytics solutions
+
         }
     },
-    event: (action, category, label) => {
-        if (dispatch.recipient) {
-            // TODO: Analytics
+    view: (title) => {
+
+        // TODO: add analytics solutions
+
+    },
+    event: (action, category, label, onclick) => {
+
+        // TODO: add analytics solutions
+
+        if (onclick && onclick === 'origin') {
+            window.location.replace(document.location.origin)
         }
     }
 }
