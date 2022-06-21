@@ -20,7 +20,7 @@ window.pages = [
 
 
     {
-        title: `Web Development`,
+        title: `Development`,
         cards: [
             {
                 header: `Chrome`,
@@ -245,34 +245,34 @@ window.pages = [
 
 
     {
-        title: `Commanders Act`,
+        title: `CommandersAct`,
         cards: [
             {
-                header: `Customer`,
+                header: `External`,
                 links: [
                     {
-                        text: `Platform X`,
+                        text: `X`,
                         href: `https://app.commandersact.com`
                     },
                     {
-                        text: `Platform V7`,
+                        text: `V7`,
                         href: `https://platform.commandersact.com`
                     },
                     {
-                        text: `Chrome Extension`,
-                        href: `https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr`
-                    },
-                    {
-                        text: `Community`,
-                        href: `https://community.commandersact.com/en`
+                        text: `GitHub`,
+                        href: `https://github.com/CommandersAct`
                     },
                     {
                         text: `Corporate`,
                         href: `https://www.commandersact.com`
                     },
                     {
-                        text: `GitHub`,
-                        href: `https://github.com/CommandersAct`
+                        text: `Community`,
+                        href: `https://community.commandersact.com/en`
+                    },
+                    {
+                        text: `Extension`,
+                        href: `https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr`
                     }
                 ]
             },
@@ -280,20 +280,20 @@ window.pages = [
                 header: `Internal`,
                 links: [
                     {
-                        text: `Zoho`,
-                        href: `https://projects.zoho.eu`
-                    },
-                    {
-                        text: `Slack`,
-                        href: `https://tagcoteam.slack.com`
+                        text: `Lucca`,
+                        href: `https://fjordtechnologies.ilucca.net/home`
                     },
                     {
                         text: `Office`,
                         href: `https://login.microsoftonline.com`
                     },
                     {
-                        text: `Lucca`,
-                        href: `https://fjordtechnologies.ilucca.net/home`
+                        text: `Slack`,
+                        href: `https://tagcoteam.slack.com`
+                    },
+                    {
+                        text: `Zoho`,
+                        href: `https://projects.zoho.eu`
                     },
                     {
                         text: `Atlassian`,
@@ -306,19 +306,15 @@ window.pages = [
                 ]
             },
             {
-                header: `Documentation V7`,
+                header: `V7 `,
                 links: [
                     {
-                        text: `Platform`,
-                        href: `https://community.commandersact.com/platform`
+                        text: `Trust`,
+                        href: `https://community.commandersact.com/trustcommander`
                     },
                     {
                         text: `Tag`,
                         href: `https://community.commandersact.com/tagcommander`
-                    },
-                    {
-                        text: `Trust`,
-                        href: `https://community.commandersact.com/trustcommander`
                     },
                     {
                         text: `Mix`,
@@ -331,11 +327,15 @@ window.pages = [
                     {
                         text: `Fuse`,
                         href: `#fuse`
+                    },
+                    {
+                        text: `Platform`,
+                        href: `https://community.commandersact.com/platform`
                     }
                 ]
             },
             {
-                header: `Documentation X`,
+                header: `X`,
                 links: [
                     {
                         text: `Customer Data Platform`,
@@ -348,7 +348,7 @@ window.pages = [
 
 
     {
-        title: `Data collection`,
+        title: `Data`,
         cards: [
             {
                 header: `CNIL`,
@@ -390,7 +390,7 @@ window.pages = [
 
 
     {
-        title: `Utils`,
+        title: `Info`,
         cards: [
             {
                 header: `Language`,
