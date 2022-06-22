@@ -3,10 +3,10 @@ window.pages = [
 
 
     // {
-    //     title: `New`,
+    //     title: `Example`,
     //     cards: [
     //         {
-    //             header: `One`,
+    //             header: `Any`,
     //             links: [
     //                 {
     //                     text: `Display`,
@@ -20,14 +20,14 @@ window.pages = [
 
 
     {
-        title: `Development`,
+        title: `Front-end`,
         cards: [
             {
                 header: `Chrome`,
                 links: [
                     {
                         text: `DevTools`,
-                        href: `https://developer.chrome.com/docs/devtools/overview/`
+                        href: `https://developer.chrome.com/docs/devtools/overview`
                     },
                     {
                         text: `Debugging`,
@@ -40,7 +40,12 @@ window.pages = [
                     {
                         text: `Web Fundamentals`,
                         href: `https://developers.google.com/web/fundamentals`
-                    },
+                    }
+                ]
+            },
+            {
+                header: `Extension`,
+                links: [
                     {
                         text: `Resource Override`,
                         href: `https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii`
@@ -48,9 +53,163 @@ window.pages = [
                     {
                         text: `Wappalyzer`,
                         href: `https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related`
+                    },
+                    {
+                        text: `ColorZilla`,
+                        href: `https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp`
                     }
                 ]
             },
+            {
+                header: `JavaScript`,
+                links: [
+                    {
+                        text: `MDN`,
+                        href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript`
+                    },
+                    {
+                        text: `Eloquent`,
+                        href: `https://eloquentjavascript.net`
+                    },
+                    {
+                        text: `ECMAScript`,
+                        href: `https://www.ecma-international.org/ecma-262/11.0/index.html#title`
+                    },
+                    {
+                        text: `Reserved Words`,
+                        href: `https://www.w3schools.com/js/js_reserved.asp`
+                    },
+                    {
+                        text: `Algorithms and Data`,
+                        href: `https://github.com/trekhleb/javascript-algorithms#javascript-algorithms-and-data-structures`
+                    },
+                    {
+                        text: `JSON Syntax`,
+                        href: `https://www.w3schools.com/js/js_json_syntax.asp`
+                    }
+                ]
+            },
+            {
+                header: `CSS`,
+                links: [
+                    {
+                        text: `Selectors`,
+                        href: `https://www.w3schools.com/cssref/css_selectors.asp`
+                    },
+                    {
+                        text: `Flexbox`,
+                        href: `https://css-tricks.com/snippets/css/a-guide-to-flexbox`
+                    }
+                ]
+            },
+            {
+                header: `Color`,
+                links: [
+                    {
+                        text: `Web colors`,
+                        href: `https://en.wikipedia.org/wiki/Web_colors`
+                    },
+                    {
+                        text: `uiGradients`,
+                        href: `https://uigradients.com/#SoundCloud`
+                    },
+                    {
+                        text: `Color Hunt`,
+                        href: `https://colorhunt.co`
+                    },
+                    {
+                        text: `Coolors`,
+                        href: `https://coolors.co`
+                    },
+                    {
+                        text: `Adobe Color`,
+                        href: `https://color.adobe.com/fr/create/color-contrast-analyzer`
+                    },
+                    {
+                        text: `Color Converter`,
+                        href: `https://www.w3schools.com/colors/colors_converter.asp`
+                    }
+                ]
+            },
+            {
+                header: `Font`,
+                links: [
+                    {
+                        text: `Base64 Transfonter`,
+                        href: `https://transfonter.org`
+                    },
+                    {
+                        text: `Web Safe Fonts`,
+                        href: `https://www.w3schools.com/cssref/css_websafe_fonts.asp`
+                    },
+                    {
+                        text: `Google Fonts`,
+                        href: `https://fonts.google.com`
+                    }
+                ]
+            },
+            {
+                header: `Icon`,
+                links: [
+                    {
+                        text: `Tabler Icons`,
+                        href: `https://tablericons.com`
+                    },
+                    {
+                        text: `iconmonstr`,
+                        href: `https://iconmonstr.com`
+                    },
+                    {
+                        text: `flaticon`,
+                        href: `https://www.flaticon.com`
+                    },
+                    {
+                        text: `Noun Project`,
+                        href: `https://thenounproject.com`
+                    },
+                    {
+                        text: `IconStore`,
+                        href: `https://iconstore.co`
+                    }
+                ]
+            },
+            {
+                header: `Image`,
+                links: [
+                    {
+                        text: `Unsplash`,
+                        href: `https://unsplash.com`
+                    },
+                    {
+                        text: `humaaans`,
+                        href: `https://www.humaaans.com`
+                    },
+                    {
+                        text: `SVG to PNG`,
+                        href: `https://svgtopng.com`
+                    },
+                    {
+                        text: `Base64 Encoder`,
+                        href: `https://www.base64-image.de`
+                    },
+                    {
+                        text: `Image Color Picker`,
+                        href: `https://imagelr.com`
+                    },
+                    {
+                        text: `Remove Background`,
+                        href: `https://www.remove.bg`
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+    {
+        title: `Programming tools`,
+        cards: [
             {
                 header: `Code`,
                 links: [
@@ -102,110 +261,6 @@ window.pages = [
                 ]
             },
             {
-                header: `JavaScript`,
-                links: [
-                    {
-                        text: `MDN`,
-                        href: `https://developer.mozilla.org/en-US/docs/Web/JavaScript`
-                    },
-                    {
-                        text: `Eloquent`,
-                        href: `https://eloquentjavascript.net`
-                    },
-                    {
-                        text: `ECMAScript`,
-                        href: `https://www.ecma-international.org/ecma-262/11.0/index.html#title`
-                    },
-                    {
-                        text: `Reserved Words`,
-                        href: `https://www.w3schools.com/js/js_reserved.asp`
-                    },
-                    {
-                        text: `Algorithms and Data`,
-                        href: `https://github.com/trekhleb/javascript-algorithms#javascript-algorithms-and-data-structures`
-                    },
-                    {
-                        text: `JSON Syntax`,
-                        href: `https://www.w3schools.com/js/js_json_syntax.asp`
-                    }
-                ]
-            },
-            {
-                header: `CSS`,
-                links: [
-                    {
-                        text: `Selectors`,
-                        href: `https://www.w3schools.com/cssref/css_selectors.asp`
-                    },
-                    {
-                        text: `Flexbox`,
-                        href: `https://css-tricks.com/snippets/css/a-guide-to-flexbox`
-                    },
-                    {
-                        text: `Colors`,
-                        href: `https://en.wikipedia.org/wiki/Web_colors`
-                    },
-                    {
-                        text: `Coolors`,
-                        href: `https://coolors.co`
-                    },
-                    {
-                        text: `ColorZilla`,
-                        href: `https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp`
-                    },
-                    {
-                        text: `Color Converter`,
-                        href: `https://www.w3schools.com/colors/colors_converter.asp`
-                    }
-                ]
-            },
-            {
-                header: `Font`,
-                links: [
-                    {
-                        text: `Base64 Transfonter`,
-                        href: `https://transfonter.org`
-                    },
-                    {
-                        text: `Web Safe Fonts`,
-                        href: `https://www.w3schools.com/cssref/css_websafe_fonts.asp`
-                    },
-                    {
-                        text: `Google Fonts`,
-                        href: `https://fonts.google.com`
-                    }
-                ]
-            },
-            {
-                header: `Image`,
-                links: [
-                    {
-                        text: `Tabler Icons`,
-                        href: `https://tablericons.com`
-                    },
-                    {
-                        text: `iconmonstr`,
-                        href: `https://iconmonstr.com`
-                    },
-                    {
-                        text: `Unsplash`,
-                        href: `https://unsplash.com`
-                    },
-                    {
-                        text: `SVG to PNG`,
-                        href: `https://svgtopng.com`
-                    },
-                    {
-                        text: `Base64 Encoder`,
-                        href: `https://www.base64-image.de`
-                    },
-                    {
-                        text: `Image Color Picker`,
-                        href: `https://imagelr.com`
-                    }
-                ]
-            },
-            {
                 header: `Network`,
                 links: [
                     {
@@ -245,7 +300,7 @@ window.pages = [
 
 
     {
-        title: `CommandersAct`,
+        title: `Commanders Act`,
         cards: [
             {
                 header: `External`,
@@ -348,7 +403,7 @@ window.pages = [
 
 
     {
-        title: `Data`,
+        title: `Data collection`,
         cards: [
             {
                 header: `CNIL`,
@@ -372,7 +427,7 @@ window.pages = [
                     },
                     {
                         text: `Analytics Academy`,
-                        href: `https://analytics.google.com/analytics/academy/`
+                        href: `https://analytics.google.com/analytics/academy`
                     },
                     {
                         text: `Tag Manager`,
@@ -390,7 +445,7 @@ window.pages = [
 
 
     {
-        title: `Info`,
+        title: `Information`,
         cards: [
             {
                 header: `Language`,
@@ -439,7 +494,66 @@ window.pages = [
                 ]
             }
         ]
-    }
+    },
+
+
+
+    {
+        title: `Startup`,
+        cards: [
+            {
+                header: `Legal`,
+                links: [
+                    {
+                        text: `Legalstart`,
+                        href: `https://www.legalstart.fr`
+                    },
+                    {
+                        text: `Captain Contrat`,
+                        href: `https://www.captaincontrat.com`
+                    },
+                    {
+                        text: `Digidom`,
+                        href: `https://www.digidom.pro`
+                    },
+                    {
+                        text: `Atlas`,
+                        href: `https://stripe.com/en-gb-fr/atlas`
+                    }
+                ]
+            },
+            {
+                header: `Transaction`,
+                links: [
+                    {
+                        text: `Stripe`,
+                        href: `https://stripe.com/fr`
+                    },
+                    {
+                        text: `Shine`,
+                        href: `https://www.shine.fr`
+                    },
+                    {
+                        text: `Qonto`,
+                        href: `https://qonto.com/fr`
+                    },
+                    {
+                        text: `Facture.net`,
+                        href: `https://www.facture.net`
+                    }
+                ]
+            },
+            {
+                header: `Health`,
+                links: [
+                    {
+                        text: `Alan`,
+                        href: `https://alan.com`
+                    }
+                ]
+            }
+        ]
+    },
 
 
 
